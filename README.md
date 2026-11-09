@@ -17,6 +17,7 @@ Conversion of a 2019 Sea-Doo RXP-X 300 into a remotely operated / autonomous sur
 |---|---|
 | 1 | [Systems architecture and technical design](docs/01-architecture.md) |
 | 2 | [Bill of materials and sourcing matrix](docs/02-bom.md) |
+| 2 | [Parts summary and where to buy](docs/03-sourcing.md) |
 
 ## Status
 

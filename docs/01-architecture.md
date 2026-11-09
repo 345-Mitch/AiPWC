@@ -182,7 +182,7 @@ A single series loop holds the craft alive. Any opening stops the engine. No mic
 
 - **Normally energised to run.** Lost power, a broken wire, or a flat e-stop battery all stop the engine.
 - The **e-stop radio is its own link** with its own antenna and frequency, sharing nothing with telemetry. The receiver opens its contacts on a button press or on loss of the transmitter heartbeat (1–2 s). Its range therefore defines the operating area.
-- A safety-rated commercial unit with dual redundant outputs (for example FORT Robotics) is the recommended choice. A home-built LoRa heartbeat receiver driving the same relays is cheaper but is not safety rated; if used, give it two independent output stages.
+- A safety-rated commercial unit with dual redundant outputs is the recommended choice. It must be a long-range 900 MHz class system (FORT's 900 MHz Wireless E-Stop is quoted at about 2 km line of sight, Cattron BWI Eagle at about 1.5 km); short-range Bluetooth units such as the FORT E-Stop Pro (about 200 m) are not suitable on open water. A home-built LoRa heartbeat receiver driving the same relays is cheaper but is not safety rated; if used, give it two independent output stages.
 - **D.E.S.S.:** do not try to simulate the key. Keep a programmed key on the post so the ECU's own security stays satisfied, and keep the lanyard so anyone aboard can pull it. The hardware kill sits downstream of all that.
 - Relays K1/K2 switch inductive loads in a fuel-vapour space: use sealed, ignition-protected relays or mount them in the sealed avionics box.
 - Cutting coil and injector feed while the ECU is powered may log fault codes; clear them with BUDS2 during commissioning and record which ones are expected.
