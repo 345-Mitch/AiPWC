@@ -37,7 +37,40 @@ re-run it to update them.
 
 Grey dashed boxes are stock items (engine, fuel tank, craft battery, jet pump and iBR gate) shown for orientation only; their positions are approximate.
 
-## 2. Avionics box
+## 2. Selected parts, with photos
+
+Photos of the selected parts, keyed to the numbers on the layout drawings above.
+
+The photos are the sellers' and manufacturers' own images, shown here by link
+from their sites and credited in the last column. They are not copied into this
+repository, because they are the vendors' copyright and the repository is
+public. If a seller moves a picture, that cell will show a broken image.
+
+| Layout # | Photo | Part | Where it goes | Photo from |
+|---|---|---|---|---|
+| 1 | <img src="https://irlock.com/cdn/shop/products/TheCubeOrange_standardset-5.jpg?width=400" alt="Cube Orange+ Standard Set" width="150"> | Cube Orange+ Standard Set | Autopilot, inside the avionics box | [IR-LOCK](https://irlock.com/products/cube-orange-plus-standard-set) |
+| 1 | <img src="https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/6/16771-teensy-4-1-feature.jpg" alt="Teensy 4.1" width="150"> | Teensy 4.1 | Vehicle Interface Unit controller, inside the avionics box | [SparkFun](https://www.sparkfun.com/products/16771) |
+| 1 | <img src="https://www.sparkfun.com/media/catalog/product/cache/df4360b598d6f0c75fa659693b376bad/1/4/14498-RockBLOCK_9603_-_Iridium_SatComm_Module-01.jpg" alt="RockBLOCK 9603" width="150"> | RockBLOCK 9603 | Iridium modem, inside the avionics box | [SparkFun](https://www.sparkfun.com/rockblock-9603n-iridium-satcomm-module.html) |
+| 1 | <img src="https://irlock.com/cdn/shop/files/RFD900ux_Bundle__33097.1590385922.1280.1280__87908.jpg?width=400" alt="RFD900x bundle (antennas and cables shown)" width="150"> | RFD900x bundle (antennas and cables shown) | 900 MHz telemetry radio, inside the avionics box | [IR-LOCK](https://irlock.com/products/rfd900ux-us-modem-bundle-fcc) |
+| 1 | <img src="https://mealeymarine.com/cdn/shop/products/16507XL.jpg?width=400" alt="Blue Sea 5025 fuse block" width="150"> | Blue Sea 5025 fuse block | Fused distribution, inside the avionics box | [Mealey Marine](https://mealeymarine.com/products/blue-sea-5025-st-blade-fuse-block-w-cover-6-circuit-w-negative-bus-5025) |
+| 2 | <img src="https://mealeymarine.com/cdn/shop/products/84224XL.jpg?width=400" alt="Victron Orion-Tr Smart 12/12-18 isolated charger" width="150"> | Victron Orion-Tr Smart 12/12-18 isolated charger | Charges the avionics battery from the craft battery | [Mealey Marine](https://mealeymarine.com/products/victron-orion-tr-smart-12-12-18-18a-220w-isolated-dc-dc-charger-or-power-supply-ori121222120) |
+| 2 | <img src="https://mealeymarine.com/cdn/shop/products/44192XL.jpg?width=400" alt="Blue Sea 6006 battery switch" width="150"> | Blue Sea 6006 battery switch | Isolates the avionics system | [Mealey Marine](https://mealeymarine.com/products/blue-sea-6006200-battery-switch-mini-on-off-black-6006200) |
+| 3, 4 | <img src="https://irlock.com/cdn/shop/files/here4main.png?width=400" alt="CubePilot Here4" width="150"> | CubePilot Here4 | GNSS antennas at the bow and on the mast | [IR-LOCK](https://irlock.com/products/here4-multiband-rtk-gnss) |
+| 5 | <img src="https://www.ultramotion.com/wp-content/uploads/2023/05/AM_2023.png" alt="Ultra Motion Servo Cylinder, AM series" width="150"> | Ultra Motion Servo Cylinder, AM series | Steering actuator under the helm | [Ultra Motion](https://www.ultramotion.com/servo-cylinder?series=am) |
+| 7 | <img src="https://www.axis.com/sites/axis/files/styles/square_700x700_/public/2022-11/p1465le_p1467le_p1468le_wall_angle_left_2112-Productimage.png.webp?itok=luRvg17q" alt="Axis P1465-LE" width="150"> | Axis P1465-LE | Pilot camera on the helm cowl | [Axis](https://www.axis.com/products/axis-p1465-le) |
+| 9 | <img src="https://poynting.tech/wp-content/uploads/product-images/omni-series/OMNI-402/A-OMNI-402-v2-Feature-Image-1.png" alt="Poynting OMNI-402" width="150"> | Poynting OMNI-402 | Cellular antenna on the mast | [Poynting](https://poynting.tech/antennas/omni-402/) |
+| 11 | <img src="https://store.clearpathrobotics.com/cdn/shop/products/FORTWirelessEStop3_1024x.png" alt="FORT Wireless E-Stop (handheld transmitter)" width="150"> | FORT Wireless E-Stop (handheld transmitter) | Shore-side stop transmitter; its receiver is in the aft safety box | [Clearpath Robotics](https://store.clearpathrobotics.com/products/wireless-e-stop) |
+| 12 | <img src="https://mealeymarine.com/cdn/shop/products/63857XL.jpg?width=400" alt="Fireboy-Xintex G-1B-R" width="150"> | Fireboy-Xintex G-1B-R | Fuel vapour detector display; its sensor sits low in the engine bay | [Mealey Marine](https://mealeymarine.com/products/xintex-gasoline-fume-detector-alarm-w-plastic-sensor-black-bezel-display-g-1b-r) |
+| 13 | <img src="https://mealeymarine.com/cdn/shop/products/54194XL.jpg?width=400" alt="Rule LoPro LP900S" width="150"> | Rule LoPro LP900S | Automatic bilge pump at the lowest point aft | [Mealey Marine](https://mealeymarine.com/products/rule-lopro-900gph-bilge-pump-automatic-lp900s) |
+| optional | <img src="https://mealeymarine.com/cdn/shop/products/66246XL.jpg?width=400" alt="FLIR M232" width="150"> | FLIR M232 | Pan/tilt thermal camera, if fitted, on the mast | [Mealey Marine](https://mealeymarine.com/products/flir-m232-pan-tilt-9hz-marine-thermal-camera-e70354) |
+
+No photo is shown for the Blue Robotics Ping2, Raspberry Pi 5, Peplink router,
+Teltonika switch, Polycase enclosure, Water Witch switch or Novotechnik sensor:
+those sites either refused automated access or serve their pictures from a host
+this session could not reach. Their product pages are linked in the
+[parts summary](03-sourcing.md).
+
+## 3. Avionics box
 
 ![Mock layout of the avionics box interior](img/avionics-box.svg)
 
@@ -47,7 +80,7 @@ Grey dashed boxes are stock items (engine, fuel tank, craft battery, jet pump an
 - Every cable leaves through the underside. Antenna leads go to bulkhead connectors so the box can be lifted out.
 - The clear lid shows status LEDs without opening the seal.
 
-## 3. Ground station screen
+## 4. Ground station screen
 
 ![Mock-up of the operator screen](img/gcs-mockup.svg)
 
@@ -59,7 +92,7 @@ This is a concept for the operator's view, built from standard QGroundControl or
 - **Engine panel:** values decoded from the craft's CAN bus, plus bilge state.
 - **Hold button:** commands idle and neutral through the autopilot. The engine kill is the separate hardware e-stop transmitter, which is a physical device and deliberately not on this screen.
 
-## 4. What these drawings do not settle
+## 5. What these drawings do not settle
 
 | Open point | Needs |
 |---|---|
