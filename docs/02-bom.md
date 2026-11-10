@@ -2,8 +2,9 @@
 
 Costs are rough USD estimates for single quantities and will have moved; get
 current quotes before budgeting. Part numbers are options that fit the
-architecture in [Phase 1](01-architecture.md), not tested selections. Purchase
-links are in the [parts summary](03-sourcing.md). Where two
+architecture in [Phase 1](01-architecture.md), not tested selections. The single
+deduplicated list to order from, with prices, importance and purchase links, is
+the [parts list](03-sourcing.md). Where two
 options are listed, the first is the recommendation.
 
 ## 1. Autopilot, IMU and navigation
@@ -93,21 +94,11 @@ options are listed, the first is the recommendation.
 | Safety | Fire suppression, automatic | Fireboy or Blazecut small-compartment unit | Mechanical / thermal | $150–400 | Marine safety dealers |
 | Safety | Navigation light, all-round white, and high-visibility flag | USCG-approved LED all-round light on the mast | 12 V | $40–100 | Marine chandlery |
 
-## Budget summary
+## Budget
 
-| Section | Low | High |
-|---|---|---|
-| 1. Autopilot, IMU and navigation | $1,600 | $4,500 |
-| 2. Mechanical steering and actuation (linear option; rotary alternative excluded) | $1,900 | $5,100 |
-| 3. Electronics and vehicle interfacing | $900 | $3,700 |
-| 4. Telemetry and video (hardware, excluding optional thermal and Starlink) | $2,600 | $6,500 |
-| 5. Power, enclosures and safety | $1,700 | $8,500 |
-| **Total** | **≈ $8,700** | **≈ $28,300** |
-
-The low end assumes the custom e-stop, budget cameras and the Teltonika router;
-the high end assumes the safety-rated e-stop, Axis cameras, Peplink bonding and
-a Septentrio GNSS. Section totals are rounded sums of the row ranges above;
-monthly service costs are not included.
+This table lists options and alternatives side by side, so it is not a shopping list.
+The [parts list](03-sourcing.md) has one row per selected part with its price,
+importance and cost totals.
 
 ## Order of purchase
 
